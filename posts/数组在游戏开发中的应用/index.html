@@ -9,14 +9,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>编程：三目有四样写法，你知道么？ &middot; Feishiko&#39;s Blog Site</title>
-  <meta name="title" content="编程：三目有四样写法，你知道么？ &middot; Feishiko&#39;s Blog Site" />
+  <title>数组在游戏开发中的应用 &middot; Feishiko&#39;s Blog Site</title>
+  <meta name="title" content="数组在游戏开发中的应用 &middot; Feishiko&#39;s Blog Site" />
   
   
   
   
   
-  <link rel="canonical" href="https://feishiko.github.io/feishiko-blog-page/posts/%E7%BC%96%E7%A8%8B%E4%B8%89%E7%9B%AE%E6%9C%89%E5%9B%9B%E6%A0%B7%E5%86%99%E6%B3%95%E4%BD%A0%E7%9F%A5%E9%81%93%E4%B9%88/" />
+  <link rel="canonical" href="https://feishiko.github.io/feishiko-blog-page/posts/%E6%95%B0%E7%BB%84%E5%9C%A8%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8/" />
   
   
   
@@ -61,20 +61,20 @@
   
   
   
-  <meta property="og:url" content="https://feishiko.github.io/feishiko-blog-page/posts/%E7%BC%96%E7%A8%8B%E4%B8%89%E7%9B%AE%E6%9C%89%E5%9B%9B%E6%A0%B7%E5%86%99%E6%B3%95%E4%BD%A0%E7%9F%A5%E9%81%93%E4%B9%88/">
+  <meta property="og:url" content="https://feishiko.github.io/feishiko-blog-page/posts/%E6%95%B0%E7%BB%84%E5%9C%A8%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8/">
   <meta property="og:site_name" content="Feishiko&#39;s Blog Site">
-  <meta property="og:title" content="编程：三目有四样写法，你知道么？">
-  <meta property="og:description" content="孔乙己是站着喝酒而穿长衫的唯一的人。他身材很高大；青白脸色，皱纹间时常夹些伤痕；一部乱蓬蓬的花白的胡子。穿的虽然是长衫，可是又脏又破，似乎十多年没有补，也没有洗。他对人说话，总是满口之乎者也，教人半懂不懂的。因为他姓孔，别人便从描红纸上的“上大人孔乙己”这半懂不懂的话里，替他取下一个绰号，叫作孔乙己。孔乙己一到店，所有喝酒的人便都看着他笑，有的叫道，“孔乙己，你脸上又添上新伤疤了！”他不回答，对柜里说，“温两碗酒，要一碟茴香豆。”便排出九文大钱。他们又故意的高声嚷道，“你一定又偷了人家的东西了！”孔乙己睁大眼睛说，“你怎么这样凭空污人清白……”“什么清白？我前天亲眼见你偷了何家的代码，吊着打。”孔乙己便涨红了脸，额上的青筋条条绽出，争辩道，“窃码不能算偷……窃码！……程序员的事，能算偷么？”接连便是难懂的话，什么“自由软件”，什么“开源”之类，引得众人都哄笑起来：店内外充满了快活的空气。">
+  <meta property="og:title" content="数组在游戏开发中的应用">
+  <meta property="og:description" content="很多游戏，像Tetris（俄罗斯方块）、Sokoban（推箱子）的逻辑实现都是依靠对数据的操纵，把离散的数据用数据结构储存起来，就能对其做很多事情。">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2024-06-22T10:55:53+08:00">
-    <meta property="article:modified_time" content="2024-06-22T10:55:53+08:00">
+    <meta property="article:published_time" content="2023-03-09T15:16:53+08:00">
+    <meta property="article:modified_time" content="2023-03-09T15:16:53+08:00">
 
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="编程：三目有四样写法，你知道么？">
-  <meta name="twitter:description" content="孔乙己是站着喝酒而穿长衫的唯一的人。他身材很高大；青白脸色，皱纹间时常夹些伤痕；一部乱蓬蓬的花白的胡子。穿的虽然是长衫，可是又脏又破，似乎十多年没有补，也没有洗。他对人说话，总是满口之乎者也，教人半懂不懂的。因为他姓孔，别人便从描红纸上的“上大人孔乙己”这半懂不懂的话里，替他取下一个绰号，叫作孔乙己。孔乙己一到店，所有喝酒的人便都看着他笑，有的叫道，“孔乙己，你脸上又添上新伤疤了！”他不回答，对柜里说，“温两碗酒，要一碟茴香豆。”便排出九文大钱。他们又故意的高声嚷道，“你一定又偷了人家的东西了！”孔乙己睁大眼睛说，“你怎么这样凭空污人清白……”“什么清白？我前天亲眼见你偷了何家的代码，吊着打。”孔乙己便涨红了脸，额上的青筋条条绽出，争辩道，“窃码不能算偷……窃码！……程序员的事，能算偷么？”接连便是难懂的话，什么“自由软件”，什么“开源”之类，引得众人都哄笑起来：店内外充满了快活的空气。">
+  <meta name="twitter:title" content="数组在游戏开发中的应用">
+  <meta name="twitter:description" content="很多游戏，像Tetris（俄罗斯方块）、Sokoban（推箱子）的逻辑实现都是依靠对数据的操纵，把离散的数据用数据结构储存起来，就能对其做很多事情。">
 
   
   <script type="application/ld+json">
@@ -82,26 +82,26 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Posts",
-    "name": "编程：三目有四样写法，你知道么？",
-    "headline": "编程：三目有四样写法，你知道么？",
+    "name": "数组在游戏开发中的应用",
+    "headline": "数组在游戏开发中的应用",
     
-    "abstract": "孔乙己是站着喝酒而穿长衫的唯一的人。他身材很高大；青白脸色，皱纹间时常夹些伤痕；一部乱蓬蓬的花白的胡子。穿的虽然是长衫，可是又脏又破，似乎十多年没有补，也没有洗。他对人说话，总是满口之乎者也，教人半懂不懂的。因为他姓孔，别人便从描红纸上的“上大人孔乙己”这半懂不懂的话里，替他取下一个绰号，叫作孔乙己。孔乙己一到店，所有喝酒的人便都看着他笑，有的叫道，“孔乙己，你脸上又添上新伤疤了！”他不回答，对柜里说，“温两碗酒，要一碟茴香豆。”便排出九文大钱。他们又故意的高声嚷道，“你一定又偷了人家的东西了！”孔乙己睁大眼睛说，“你怎么这样凭空污人清白……”“什么清白？我前天亲眼见你偷了何家的代码，吊着打。”孔乙己便涨红了脸，额上的青筋条条绽出，争辩道，“窃码不能算偷……窃码！……程序员的事，能算偷么？”接连便是难懂的话，什么“自由软件”，什么“开源”之类，引得众人都哄笑起来：店内外充满了快活的空气。",
+    "abstract": "很多游戏，像Tetris（俄罗斯方块）、Sokoban（推箱子）的逻辑实现都是依靠对数据的操纵，把离散的数据用数据结构储存起来，就能对其做很多事情。",
     "inLanguage": "en",
-    "url" : "https:\/\/feishiko.github.io\/feishiko-blog-page\/posts\/%E7%BC%96%E7%A8%8B%E4%B8%89%E7%9B%AE%E6%9C%89%E5%9B%9B%E6%A0%B7%E5%86%99%E6%B3%95%E4%BD%A0%E7%9F%A5%E9%81%93%E4%B9%88\/",
+    "url" : "https:\/\/feishiko.github.io\/feishiko-blog-page\/posts\/%E6%95%B0%E7%BB%84%E5%9C%A8%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8\/",
     "author" : {
       "@type": "Person",
       "name": "Feishiko"
     },
-    "copyrightYear": "2024",
-    "dateCreated": "2024-06-22T10:55:53\u002b08:00",
-    "datePublished": "2024-06-22T10:55:53\u002b08:00",
+    "copyrightYear": "2023",
+    "dateCreated": "2023-03-09T15:16:53\u002b08:00",
+    "datePublished": "2023-03-09T15:16:53\u002b08:00",
     
-    "dateModified": "2024-06-22T10:55:53\u002b08:00",
+    "dateModified": "2023-03-09T15:16:53\u002b08:00",
     
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "80"
+    "wordCount": "94"
   }]
   </script>
 
@@ -384,7 +384,7 @@
   <header id="single_header" class="mt-5 max-w-prose">
     
     <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-      编程：三目有四样写法，你知道么？
+      数组在游戏开发中的应用
     </h1>
     <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
       
@@ -425,7 +425,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-06-22 10:55:53 &#43;0800 CST">22 June 2024</time>
+  <time datetime="2023-03-09 15:16:53 &#43;0800 CST">9 March 2023</time>
   
 
   
@@ -520,7 +520,79 @@
   
   <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
     
-    
+     <div
+      class="order-first lg:ml-auto px-0 lg:order-last ltr:lg:pl-8 rtl:lg:pr-8">
+      <div class="toc ltr:pl-5 rtl:pr-5 print:hidden lg:sticky lg:top-10">
+
+         <details open id="TOCView"
+  class="toc-right mt-0 overflow-y-scroll overscroll-contain scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600 rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 hidden lg:block">
+  <summary
+    class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="min-w-[220px] py-2 border-dotted ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#总结">总结</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</details>
+<details class="toc-inside mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 lg:hidden">
+  <summary
+    class="py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#总结">总结</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</details>
+
+<script>
+
+  var margin = 200;
+  var marginError = 50;
+
+  (function () {
+    var $window = $(window);
+    var $toc = $('#TOCView');
+    var tocHeight = $toc.height();
+
+    function onResize() {
+      var windowAndMarginHeight = $window.height() - margin;
+      if(tocHeight >= windowAndMarginHeight) {
+        $toc.css("overflow-y", "scroll")
+        $toc.css("max-height", (windowAndMarginHeight + marginError) + "px")
+      } else {
+        $toc.css("overflow-y", "hidden")
+        $toc.css("max-height", "9999999px")
+      }
+    }
+
+    $window.on('resize', onResize);
+    $(document).ready(onResize);
+  })();
+
+
+
+</script>
+   </div>
+      </div>
+      
 
       <div class="min-w-0 min-h-0 max-w-fit">
         
@@ -528,36 +600,68 @@
 
 
         <div class="article-content max-w-prose mb-20">
-          <p>孔乙己是站着喝酒而穿长衫的唯一的人。他身材很高大；青白脸色，皱纹间时常夹些伤痕；一部乱蓬蓬的花白的胡子。穿的虽然是长衫，可是又脏又破，似乎十多年没有补，也没有洗。他对人说话，总是满口之乎者也，教人半懂不懂的。因为他姓孔，别人便从描红纸上的“上大人孔乙己”这半懂不懂的话里，替他取下一个绰号，叫作孔乙己。孔乙己一到店，所有喝酒的人便都看着他笑，有的叫道，“孔乙己，你脸上又添上新伤疤了！”他不回答，对柜里说，“温两碗酒，要一碟茴香豆。”便排出九文大钱。他们又故意的高声嚷道，“你一定又偷了人家的东西了！”孔乙己睁大眼睛说，“你怎么这样凭空污人清白……”“什么清白？我前天亲眼见你偷了何家的代码，吊着打。”孔乙己便涨红了脸，额上的青筋条条绽出，争辩道，“窃码不能算偷……窃码！……程序员的事，能算偷么？”接连便是难懂的话，什么“自由软件”，什么“开源”之类，引得众人都哄笑起来：店内外充满了快活的空气。</p>
-<p>听人家背地里谈论，孔乙己原来也写过代码，但终于拿不到Offer，又不会营生；于是愈过愈穷，弄到将要讨饭了。幸而码风优良，便替人家做做外包，换一碗饭吃。可惜他又有一样坏脾气，便是好喝懒做。坐不到几天，便连人和Git远程仓库，一齐失踪。如是几次，叫他外包的人也没有了。孔乙己没有法，便免不了偶然做些偷窃的事。但他在我们店里，品行却比别人都好，就是从不拖欠；虽然间或没有现钱，暂时记在粉板上，但不出一月，定然还清，从粉板上拭去了孔乙己的名字。</p>
-<p>孔乙己喝过半碗酒，涨红的脸色渐渐复了原，旁人便又问道，“孔乙己，你当真会写代码么？”孔乙己看着问他的人，显出不屑置辩的神气。他们便接着说道，“你怎的连半个Offer也捞不到呢？”孔乙己立刻显出颓唐不安模样，脸上笼上了一层灰色，嘴里说些话；这回可是全是函子范畴之类，一些不懂了。在这时候，众人也都哄笑起来：店内外充满了快活的空气。</p>
-<p>在这些时候，我可以附和着笑，掌柜是决不责备的。而且掌柜见了孔乙己，也每每这样问他，引人发笑。孔乙己自己知道不能和他们谈天，便只好向孩子说话。有一回对我说道，“你写过代码么？”我略略点一点头。他说，“写过，……我便考你一考。三目运算符，怎样写的？”我想，讨饭一样的人，也配考我么？便回过脸去，不再理会。孔乙己等了许久，很恳切的说道，“不能写罢？……我教给你，记着！这些代码应该记着。将来做HR的时候，考人要用。”我暗想我和HR的等级还很远呢，而且我们HR也从不将三目上账；又好笑，又不耐烦，懒懒的答他道，“谁要你教，?:么？”孔乙己显出极高兴的样子，将两个指头的长指甲敲着柜台，点头说，“对呀对呀！……三目有四样写法，你知道么？”</p>
-<ol>
-<li>condition ? true : false</li>
-</ol>
-<p>多种支持三目的语言中常见的形式如C或C#，非常方便的节省了一定的时间复杂度和空间复杂度，非常优雅的解决了问题</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C#" data-lang="C#"><span class="line"><span class="cl"><span class="c1">// C#</span>
-</span></span><span class="line"><span class="cl"><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="m">3</span> <span class="p">&gt;</span> <span class="m">5</span> <span class="p">?</span> <span class="s">&#34;Bigger&#34;</span> <span class="p">:</span> <span class="s">&#34;Smaller&#34;</span><span class="p">)</span>
-</span></span></code></pre></div><ol start="2">
-<li>condition and true or false</li>
-</ol>
-<p>不支持标准三目的语言中能使用的形式，又叫逻辑短路，在运算优先级上有一定小问题但大多数情况下能正常使用</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-lua" data-lang="lua"><span class="line"><span class="cl"><span class="c1">-- Lua</span>
-</span></span><span class="line"><span class="cl"><span class="n">print</span><span class="p">(</span><span class="mi">3</span> <span class="o">&gt;</span> <span class="mi">5</span> <span class="ow">and</span> <span class="s2">&#34;Bigger&#34;</span> <span class="ow">or</span> <span class="s2">&#34;Smaller&#34;</span><span class="p">)</span>
-</span></span></code></pre></div><ol start="3">
-<li>true if condition else false</li>
-</ol>
-<p>Python特有的条件状语从句写法，This will be true if achieve this condition, else will be this kind of thing&hellip;，比起正常写三目而言会有点不符合直觉，但是非常符合自然语言的直觉，Python的丑态</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Python" data-lang="Python"><span class="line"><span class="cl"><span class="c1"># Python</span>
-</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Bigger&#34;</span> <span class="k">if</span> <span class="mi">3</span> <span class="o">&gt;</span> <span class="mi">5</span> <span class="k">else</span> <span class="s2">&#34;Smaller&#34;</span><span class="p">)</span>
-</span></span></code></pre></div><p>没有:也是一种非丑态的语句</p>
-<ol start="4">
-<li>if condition {true} else {false}</li>
-</ol>
-<p>不支持任何三目写法的情况下使用直接的条件判断也是一种三目，比如Rust，剥离了最核心的内容，剔除了其他的糟粕</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Rust" data-lang="Rust"><span class="line"><span class="cl"><span class="c1">// Rust
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">if</span><span class="w"> </span><span class="mi">3</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mi">5</span><span class="w"> </span><span class="p">{</span><span class="fm">println!</span><span class="p">(</span><span class="s">&#34;Bigger&#34;</span><span class="p">)}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span><span class="fm">println!</span><span class="p">(</span><span class="s">&#34;Smaller&#34;</span><span class="p">)}</span><span class="w">
-</span></span></span></code></pre></div><p>我愈不耐烦了，努着嘴走远。孔乙己刚用指甲蘸了酒，想在柜上写字，见我毫不热心，便又叹一口气，显出极惋惜的样子。</p>
+          <p>很多游戏，像Tetris（俄罗斯方块）、Sokoban（推箱子）的逻辑实现都是依靠对数据的操纵，把离散的数据用数据结构储存起来，就能对其做很多事情。</p>
+<p>比如在Tetris中，我们可以把每一块离散的空间都放到一个二维数组里面，然后给数组里面的每一个元素一个ASCII，比如#表示方块，.表示空位置。方块旋转的时候可以乘以一个2d旋转矩阵，然后让方块转动到对应的位置；当有一行全部被#挤满的时候，那一行将被删除，并且在上面的所有方块往下移动一格。然后我们可以把这个二维数组用绘图API画出来。</p>
+<p>再比如Sokoban，我们可以用@表示玩家，#表示墙壁，O表示箱子，^表示坑。然后基于二维数组进行各种逻辑上的处理，比如要让玩家移动，要保证玩家前面不能有墙壁，举一个简单的例子，这里用lua</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-lua" data-lang="lua"><span class="line"><span class="cl"><span class="kd">local</span> <span class="n">map</span> <span class="o">=</span> <span class="p">[]</span>
+</span></span><span class="line"><span class="cl"><span class="kr">for</span> <span class="n">width</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="n">i</span> <span class="o">=</span> <span class="n">maxWidth</span> <span class="kr">do</span> <span class="c1">-- lua的table自增从1开始！</span>
+</span></span><span class="line"><span class="cl">    <span class="n">map</span><span class="p">[</span><span class="n">width</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
+</span></span><span class="line"><span class="cl"><span class="kr">end</span>
+</span></span><span class="line"><span class="cl"><span class="c1">-- 省略一些初始化过程~</span>
+</span></span><span class="line"><span class="cl"><span class="c1">-- ...</span>
+</span></span><span class="line"><span class="cl"><span class="c1">-- 如果玩家的左侧没有墙壁，那么玩家就向左移动一格</span>
+</span></span><span class="line"><span class="cl"><span class="kr">if</span> <span class="n">map</span><span class="p">[</span><span class="n">player.x</span> <span class="o">-</span> <span class="mi">1</span><span class="p">][</span><span class="n">player.y</span><span class="p">]</span> <span class="o">~=</span> <span class="s2">&#34;#&#34;</span> <span class="kr">then</span>
+</span></span><span class="line"><span class="cl">    <span class="n">player.x</span> <span class="o">=</span> <span class="n">player.x</span> <span class="o">-</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl"><span class="kr">end</span>
+</span></span></code></pre></div><p>只要你掌握了怎么操纵数组，那么对于很多功能的实现就会变得非常简单！像关卡生成或者寻路算法等等，都需要对数据进行各种操纵。</p>
+<p>甚至<strong>关卡编辑器</strong>我们也可以使用各种格子。</p>
+<p>在SHENZHEN I/O中，玩家如果要制作自己的关卡，就要自己写lua，其中关卡编辑器就是一个asciiMap！玩家把地图用ascii的方式打成字符串，然后后台就会把这个table拿去解析成一个二维数组。</p>
+<p>我自己用一些比较原始的游戏引擎做游戏的时候，也喜欢写asciiMap，然后解析成二维数组，进而写一些逻辑。</p>
+<p>再比如<strong>寻路算法</strong>，如果你的游戏地图是用二维数组表示的，那么就能通过操纵各种数据来实现寻路。这里我们用一个叫做BFS的算法。</p>
+<p>使用BFS需要一个Quene，我们简略画一个地图。其中下面的@是玩家，E是敌人，#是墙壁，.是空地</p>
+<pre tabindex="0"><code>#########
+#E..#..@#
+#..#.#..#
+#.......#
+#########
+</code></pre><p>首先我们要创建另一个二维数组，#标记为-9999，空地标记为0，@标记为0，E自身是9999。在@的位置对四周非-9999的进行标记，此轮标记为1，然后把标记为1的位置记录到Quene，Quene的原则是先进先出。</p>
+<pre tabindex="0"><code>#########
+#E..#.1@#
+#..#.#.1#
+#.......#
+#########
+</code></pre><p>接下来就可以对1的这个位置做刚才一样的事情，但是我们是从Quene里面提取的位置，直到Quene没有东西为止。之后的asciiMap应该大致如此：(x表示10，因为这里放不下了)</p>
+<pre tabindex="0"><code>#########
+#E9x#21@#
+#98#6#21#
+#8765432#
+#########
+</code></pre><p>然后E（敌人）就可以找周围更小一点的数，如果更小就走这一格，最后就能走到玩家的位置。</p>
+<p>再比如<strong>Solitaire(单人纸牌)</strong>，像蜘蛛纸牌/空当接龙之类的，也很需要对数组进行操纵</p>
+<p>Solitaire有很多行，很多列，然后每一个元素里面存一个数字，数字表示对应的牌，举个简单的例子：</p>
+<pre tabindex="0"><code>1 8 15
+2 9 16
+3 10 17
+4 11 18
+5 12 19
+6 13 20
+7 14 21
+</code></pre><p>随便打了一点，当然正常Solitaire是随机的，乱序的，不像我这么整齐。</p>
+<p>我们都知道，扑克牌一共四种花色，每种花色13张牌，我们就可以1-13一个花色；14-26一个花色以此类推。</p>
+<p>再然后我们可能要堆叠牌，比如我们要把红桃7放到红桃8上面，这里红桃是1-13，那么我们要判断当前牌的id+1是否等于要放到的牌上面（是否等于8）</p>
+
+
+<h3 class="relative group">总结 
+    <div id="%E6%80%BB%E7%BB%93" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%E6%80%BB%E7%BB%93" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>所以对于很多游戏来说，数组是一个很强大的工具！如果你能很好的用在你的游戏上，这会很有帮助！</p>
 
         </div>
         
@@ -577,8 +681,8 @@
           
         
       <script>
-        var oid = "views_posts\\编程：三目有四样写法，你知道么？.md"
-        var oid_likes = "likes_posts\\编程：三目有四样写法，你知道么？.md"
+        var oid = "views_posts\\数组在游戏开发中的应用.md"
+        var oid_likes = "likes_posts\\数组在游戏开发中的应用.md"
       </script>
       
       
@@ -598,7 +702,7 @@
       <div class="flex justify-between pt-3">
         <span>
           
-            <a class="flex group mr-3" href="/feishiko-blog-page/posts/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91%E7%8B%AC%E7%AB%8B%E6%B8%B8%E6%88%8F%E4%B8%8E%E4%B8%AA%E4%BA%BA%E5%BC%80%E5%8F%91%E8%80%85/">
+            <a class="flex group mr-3" href="/feishiko-blog-page/posts/%E6%9C%97%E4%BC%AF%E4%BD%99%E5%BC%A6%E5%AE%9A%E5%BE%8B%E5%9C%A8%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8/">
               <span
                 class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
                 >&larr;</span
@@ -610,11 +714,11 @@
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >游戏开发：独立游戏与个人开发者</span
+                  >朗伯余弦定律在游戏开发中的应用</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
-                    <time datetime="2024-05-11 15:40:53 &#43;0800 CST">11 May 2024</time>
+                    <time datetime="2023-02-18 01:26:53 &#43;0800 CST">18 February 2023</time>
                   
                 </span>
               </span>
@@ -622,6 +726,28 @@
           
         </span>
         <span>
+          
+            <a class="flex text-right group ml-3" href="/feishiko-blog-page/posts/%E5%9F%BA%E4%BA%8E%E9%A9%AC%E5%B0%94%E7%A7%91%E5%A4%AB%E9%93%BE%E7%9A%84%E9%9A%8F%E6%9C%BA%E6%96%87%E7%AB%A0%E7%94%9F%E6%88%90/">
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >基于马尔科夫链的随机文章生成</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2023-03-29 10:08:53 &#43;0800 CST">29 March 2023</time>
+                  
+                </span>
+              </span>
+              <span
+                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
+                >&rarr;</span
+              >
+              <span
+                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
+                >&larr;</span
+              >
+            </a>
           
         </span>
       </div>
