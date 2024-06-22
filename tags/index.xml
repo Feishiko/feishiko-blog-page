@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Feishiko&#39;s Blog Site</title>
-    <link>https://github.com/Feishiko/feishiko-blog-page.git/tags/</link>
+    <link>https://feishiko.github.io/feishiko-blog-page/tags/</link>
     <description>Recent content in Tags on Feishiko&#39;s Blog Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Feishiko</copyright>
-    <atom:link href="https://github.com/Feishiko/feishiko-blog-page.git/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://feishiko.github.io/feishiko-blog-page/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
