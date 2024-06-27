@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Feishiko</copyright>
-    <lastBuildDate>Sun, 23 Jun 2024 11:00:56 +0800</lastBuildDate><atom:link href="https://feishiko.github.io/feishiko-blog-page/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 Jun 2024 10:47:39 +0800</lastBuildDate><atom:link href="https://feishiko.github.io/feishiko-blog-page/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Web：为Hugo博客添加评论区</title>
+      <link>https://feishiko.github.io/feishiko-blog-page/posts/web%E4%B8%BAhugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E8%AF%84%E8%AE%BA%E5%8C%BA/</link>
+      <pubDate>Thu, 27 Jun 2024 10:47:39 +0800</pubDate>
+      
+      <guid>https://feishiko.github.io/feishiko-blog-page/posts/web%E4%B8%BAhugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E8%AF%84%E8%AE%BA%E5%8C%BA/</guid>
+      <description>上回说到，我用Hugo + Github Page搭建了一个个人博客小站，昨天有朋友想让我加个评论区，于是我就加了一下。</description>
+      
+    </item>
+    
     <item>
       <title>Web：使用Hugo和Github Page创建个人博客</title>
       <link>https://feishiko.github.io/feishiko-blog-page/posts/web%E4%BD%BF%E7%94%A8hugo%E5%92%8Cgithub-page%E5%88%9B%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>

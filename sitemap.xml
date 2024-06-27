@@ -4,13 +4,19 @@
 
   <url>
     <loc>https://feishiko.github.io/feishiko-blog-page/</loc>
-    <lastmod>2024-06-23T11:00:56+08:00</lastmod>
+    <lastmod>2024-06-27T10:47:39+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://feishiko.github.io/feishiko-blog-page/posts/</loc>
-    <lastmod>2024-06-23T11:00:56+08:00</lastmod>
+    <lastmod>2024-06-27T10:47:39+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://feishiko.github.io/feishiko-blog-page/posts/web%E4%B8%BAhugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E8%AF%84%E8%AE%BA%E5%8C%BA/</loc>
+    <lastmod>2024-06-27T10:47:39+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
