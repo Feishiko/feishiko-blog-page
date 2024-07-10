@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Feishiko</copyright>
-    <lastBuildDate>Thu, 27 Jun 2024 10:47:39 +0800</lastBuildDate><atom:link href="https://feishiko.github.io/feishiko-blog-page/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Jul 2024 21:22:43 +0800</lastBuildDate><atom:link href="https://feishiko.github.io/feishiko-blog-page/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>游戏开发：使用Neovim写Love2d</title>
+      <link>https://feishiko.github.io/feishiko-blog-page/posts/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91%E4%BD%BF%E7%94%A8neovim%E5%86%99love2d/</link>
+      <pubDate>Wed, 10 Jul 2024 21:22:43 +0800</pubDate>
+      
+      <guid>https://feishiko.github.io/feishiko-blog-page/posts/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91%E4%BD%BF%E7%94%A8neovim%E5%86%99love2d/</guid>
+      <description>前段时间电脑坏了，拿去修的这段时间就用了几天自己的300块钱的Linux平板。</description>
+      
+    </item>
+    
     <item>
       <title>Web：为Hugo博客添加评论区</title>
       <link>https://feishiko.github.io/feishiko-blog-page/posts/web%E4%B8%BAhugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E8%AF%84%E8%AE%BA%E5%8C%BA/</link>
