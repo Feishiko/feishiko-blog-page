@@ -9,14 +9,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>游戏开发：优化Love.js的界面适配itch.io &middot; Feishiko&#39;s Blog Site</title>
-  <meta name="title" content="游戏开发：优化Love.js的界面适配itch.io &middot; Feishiko&#39;s Blog Site" />
+  <title>游戏开发：游戏逻辑处理时钟 &middot; Feishiko&#39;s Blog Site</title>
+  <meta name="title" content="游戏开发：游戏逻辑处理时钟 &middot; Feishiko&#39;s Blog Site" />
   
   
   
   
   
-  <link rel="canonical" href="http://localhost:1313/feishiko-blog-page/posts/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91%E4%BC%98%E5%8C%96love.js%E7%9A%84%E7%95%8C%E9%9D%A2%E9%80%82%E9%85%8Ditch.io/" />
+  <link rel="canonical" href="http://localhost:1313/feishiko-blog-page/posts/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91%E6%B8%B8%E6%88%8F%E9%80%BB%E8%BE%91%E5%A4%84%E7%90%86%E6%97%B6%E9%92%9F/" />
   
   
   
@@ -61,20 +61,20 @@
   
   
   
-  <meta property="og:url" content="http://localhost:1313/feishiko-blog-page/posts/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91%E4%BC%98%E5%8C%96love.js%E7%9A%84%E7%95%8C%E9%9D%A2%E9%80%82%E9%85%8Ditch.io/">
+  <meta property="og:url" content="http://localhost:1313/feishiko-blog-page/posts/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91%E6%B8%B8%E6%88%8F%E9%80%BB%E8%BE%91%E5%A4%84%E7%90%86%E6%97%B6%E9%92%9F/">
   <meta property="og:site_name" content="Feishiko&#39;s Blog Site">
-  <meta property="og:title" content="游戏开发：优化Love.js的界面适配itch.io">
-  <meta property="og:description" content="Love2d要导出网页文件需要使用love.js，但是love.js自带了一个看上去很丑陋的外框使其在上传的itch的时候非常不契合">
+  <meta property="og:title" content="游戏开发：游戏逻辑处理时钟">
+  <meta property="og:description" content="这周参加了GMTK GAMEJAM 2024，是个平台跳跃，游戏内出现了如果卡顿就会卡墙里或者浮空的BUG，经过我仔细研究发现这和我在和时间有关的变量后面都乘上了一个deltatime。">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2024-08-21T14:14:53+08:00">
-    <meta property="article:modified_time" content="2024-08-21T14:14:53+08:00">
+    <meta property="article:published_time" content="2024-08-21T14:36:15+08:00">
+    <meta property="article:modified_time" content="2024-08-21T14:36:15+08:00">
 
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="游戏开发：优化Love.js的界面适配itch.io">
-  <meta name="twitter:description" content="Love2d要导出网页文件需要使用love.js，但是love.js自带了一个看上去很丑陋的外框使其在上传的itch的时候非常不契合">
+  <meta name="twitter:title" content="游戏开发：游戏逻辑处理时钟">
+  <meta name="twitter:description" content="这周参加了GMTK GAMEJAM 2024，是个平台跳跃，游戏内出现了如果卡顿就会卡墙里或者浮空的BUG，经过我仔细研究发现这和我在和时间有关的变量后面都乘上了一个deltatime。">
 
   
   <script type="application/ld+json">
@@ -82,26 +82,26 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Posts",
-    "name": "游戏开发：优化Love.js的界面适配itch.io",
-    "headline": "游戏开发：优化Love.js的界面适配itch.io",
+    "name": "游戏开发：游戏逻辑处理时钟",
+    "headline": "游戏开发：游戏逻辑处理时钟",
     
-    "abstract": "Love2d要导出网页文件需要使用love.js，但是love.js自带了一个看上去很丑陋的外框使其在上传的itch的时候非常不契合",
+    "abstract": "这周参加了GMTK GAMEJAM 2024，是个平台跳跃，游戏内出现了如果卡顿就会卡墙里或者浮空的BUG，经过我仔细研究发现这和我在和时间有关的变量后面都乘上了一个deltatime。",
     "inLanguage": "en",
-    "url" : "http:\/\/localhost:1313\/feishiko-blog-page\/posts\/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91%E4%BC%98%E5%8C%96love.js%E7%9A%84%E7%95%8C%E9%9D%A2%E9%80%82%E9%85%8Ditch.io\/",
+    "url" : "http:\/\/localhost:1313\/feishiko-blog-page\/posts\/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91%E6%B8%B8%E6%88%8F%E9%80%BB%E8%BE%91%E5%A4%84%E7%90%86%E6%97%B6%E9%92%9F\/",
     "author" : {
       "@type": "Person",
       "name": "Feishiko"
     },
     "copyrightYear": "2024",
-    "dateCreated": "2024-08-21T14:14:53\u002b08:00",
-    "datePublished": "2024-08-21T14:14:53\u002b08:00",
+    "dateCreated": "2024-08-21T14:36:15\u002b08:00",
+    "datePublished": "2024-08-21T14:36:15\u002b08:00",
     
-    "dateModified": "2024-08-21T14:14:53\u002b08:00",
+    "dateModified": "2024-08-21T14:36:15\u002b08:00",
     
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "33"
+    "wordCount": "67"
   }]
   </script>
 
@@ -396,7 +396,7 @@
   <header id="single_header" class="mt-5 max-w-prose">
     
     <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-      游戏开发：优化Love.js的界面适配itch.io
+      游戏开发：游戏逻辑处理时钟
     </h1>
     <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
       
@@ -437,7 +437,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-08-21 14:14:53 &#43;0800 CST">21 August 2024</time>
+  <time datetime="2024-08-21 14:36:15 &#43;0800 CST">21 August 2024</time>
   
 
   
@@ -540,14 +540,24 @@
 
 
         <div class="article-content max-w-prose mb-20">
-          <p>Love2d要导出网页文件需要使用love.js，但是love.js自带了一个看上去很丑陋的外框使其在上传的itch的时候非常不契合</p>
-<p>多亏Love2d Discord的哥们</p>
-<blockquote>
-<p>Sheepolution: The default html that love.js provides is really bad for uploading to itch. You can remove the title and such to make it properly fit the screen.</p>
-</blockquote>
-<p>为了移除title和footer，需要手动编辑love.js生成的html文件</p>
-<p>删除或注释开头的<code>&lt;h1&gt;</code>标签和最底下的<code>&lt;footer&gt;</code>标签即可</p>
-
+          <p>这周参加了GMTK GAMEJAM 2024，是个平台跳跃，游戏内出现了如果卡顿就会卡墙里或者浮空的BUG，经过我仔细研究发现这和我在和时间有关的变量后面都乘上了一个deltatime。</p>
+<p>但是不这么做是不行的，因为每个人的机子响应时间不同而且屏幕刷新率也不同，为了保证相同时间内执行的效果一样（比如玩家的移动速度），所以需要乘上一个deltatime补上这一部分时差。然后deltatime由于是上一帧逻辑与当前逻辑的实际现实时间差，所以如果中间有卡顿这个deltatime就会变大。一旦窗口freeze了一段时间，玩家就顺其自然的掉出去了。</p>
+<p>又多亏了我另外两个好哥们（TML和域外），我现在掌握了使用tick时钟进行游戏逻辑帧的处理。</p>
+<p>具体原理是让一秒内处理相同的时间逻辑。因为deltatime经过一秒后整数部位会来到1，所以通过限制一帧内deltatime &gt; 1/一秒内执行的逻辑次数，使deltatime等于1/一秒内执行的逻辑次数，就能让tick进行相对恒定的逻辑帧处理。</p>
+<p>以下代码设定一秒内执行60次tick，即60次逻辑执行，并且恒定。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-lua" data-lang="lua"><span class="line"><span class="cl"><span class="kd">local</span> <span class="n">totalTime</span><span class="p">,</span> <span class="n">elapsedTime</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span> <span class="c1">-- &lt;</span>
+</span></span><span class="line"><span class="cl"><span class="kr">function</span> <span class="nc">love</span><span class="p">.</span><span class="nf">update</span><span class="p">(</span><span class="n">dt</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">totalTime</span> <span class="o">=</span> <span class="n">totalTime</span> <span class="o">+</span> <span class="n">dt</span> <span class="c1">-- &lt;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">DrawEvent</span><span class="p">:</span><span class="n">Update</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">while</span> <span class="n">totalTime</span> <span class="o">-</span> <span class="n">elapsedTime</span> <span class="o">&gt;</span> <span class="mi">1</span> <span class="o">/</span> <span class="mi">60</span> <span class="kr">do</span> <span class="c1">-- &lt;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">dt</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">/</span> <span class="mi">60</span> <span class="c1">-- &lt;</span>
+</span></span><span class="line"><span class="cl">        <span class="kr">if</span> <span class="n">self.scenes</span><span class="p">[</span><span class="n">self.currentScene</span><span class="p">].</span><span class="n">Update</span> <span class="o">~=</span> <span class="kc">nil</span> <span class="kr">then</span> <span class="n">self.scenes</span><span class="p">[</span><span class="n">self.currentScene</span><span class="p">]:</span><span class="n">Update</span><span class="p">(</span><span class="n">dt</span><span class="p">)</span> <span class="kr">end</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">gameObject</span><span class="p">:</span><span class="n">ObjectInitUpdate</span><span class="p">(</span><span class="n">dt</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">love.keyboard</span><span class="p">.</span><span class="n">updateKeys</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">        <span class="n">elapsedTime</span> <span class="o">=</span> <span class="n">elapsedTime</span> <span class="o">+</span> <span class="mi">1</span> <span class="o">/</span> <span class="mi">60</span> <span class="c1">-- &lt;</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">end</span> <span class="c1">-- &lt;</span>
+</span></span><span class="line"><span class="cl"><span class="kr">end</span>
+</span></span></code></pre></div>
         </div>
         
         
@@ -566,8 +576,8 @@
           
         
       <script>
-        var oid = "views_posts\\游戏开发：优化Love.js的界面适配itch.io.md"
-        var oid_likes = "likes_posts\\游戏开发：优化Love.js的界面适配itch.io.md"
+        var oid = "views_posts\\游戏开发：游戏逻辑处理时钟.md"
+        var oid_likes = "likes_posts\\游戏开发：游戏逻辑处理时钟.md"
       </script>
       
       
@@ -587,7 +597,7 @@
       <div class="flex justify-between pt-3">
         <span>
           
-            <a class="flex group mr-3" href="/feishiko-blog-page/posts/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91%E4%BD%BF%E7%94%A8neovim%E5%86%99love2d/">
+            <a class="flex group mr-3" href="/feishiko-blog-page/posts/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91%E4%BC%98%E5%8C%96love.js%E7%9A%84%E7%95%8C%E9%9D%A2%E9%80%82%E9%85%8Ditch.io/">
               <span
                 class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
                 >&larr;</span
@@ -599,11 +609,11 @@
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >游戏开发：使用Neovim写Love2d</span
+                  >游戏开发：优化Love.js的界面适配itch.io</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
-                    <time datetime="2024-07-10 21:22:43 &#43;0800 CST">10 July 2024</time>
+                    <time datetime="2024-08-21 14:14:53 &#43;0800 CST">21 August 2024</time>
                   
                 </span>
               </span>
@@ -611,28 +621,6 @@
           
         </span>
         <span>
-          
-            <a class="flex text-right group ml-3" href="/feishiko-blog-page/posts/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91%E6%B8%B8%E6%88%8F%E9%80%BB%E8%BE%91%E5%A4%84%E7%90%86%E6%97%B6%E9%92%9F/">
-              <span class="flex flex-col">
-                <span
-                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >游戏开发：游戏逻辑处理时钟</span
-                >
-                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
-                  
-                    <time datetime="2024-08-21 14:36:15 &#43;0800 CST">21 August 2024</time>
-                  
-                </span>
-              </span>
-              <span
-                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
-                >&rarr;</span
-              >
-              <span
-                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
-                >&larr;</span
-              >
-            </a>
           
         </span>
       </div>

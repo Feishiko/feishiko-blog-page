@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Feishiko</copyright>
-    <lastBuildDate>Wed, 21 Aug 2024 14:14:53 +0800</lastBuildDate><atom:link href="http://localhost:1313/feishiko-blog-page/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Aug 2024 14:36:15 +0800</lastBuildDate><atom:link href="http://localhost:1313/feishiko-blog-page/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>游戏开发：游戏逻辑处理时钟</title>
+      <link>http://localhost:1313/feishiko-blog-page/posts/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91%E6%B8%B8%E6%88%8F%E9%80%BB%E8%BE%91%E5%A4%84%E7%90%86%E6%97%B6%E9%92%9F/</link>
+      <pubDate>Wed, 21 Aug 2024 14:36:15 +0800</pubDate>
+      
+      <guid>http://localhost:1313/feishiko-blog-page/posts/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91%E6%B8%B8%E6%88%8F%E9%80%BB%E8%BE%91%E5%A4%84%E7%90%86%E6%97%B6%E9%92%9F/</guid>
+      <description>这周参加了GMTK GAMEJAM 2024，是个平台跳跃，游戏内出现了如果卡顿就会卡墙里或者浮空的BUG，经过我仔细研究发现这和我在和时间有关的变量后面都乘上了一个deltatime。</description>
+      
+    </item>
+    
     <item>
       <title>游戏开发：优化Love.js的界面适配itch.io</title>
       <link>http://localhost:1313/feishiko-blog-page/posts/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91%E4%BC%98%E5%8C%96love.js%E7%9A%84%E7%95%8C%E9%9D%A2%E9%80%82%E9%85%8Ditch.io/</link>
