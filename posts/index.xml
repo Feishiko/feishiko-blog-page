@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Feishiko</copyright>
-    <lastBuildDate>Wed, 21 Aug 2024 14:36:15 +0800</lastBuildDate><atom:link href="http://localhost:1313/feishiko-blog-page/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Aug 2024 20:22:59 +0800</lastBuildDate><atom:link href="http://localhost:1313/feishiko-blog-page/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>在中国开启Github2FA验证</title>
+      <link>http://localhost:1313/feishiko-blog-page/posts/%E5%9C%A8%E4%B8%AD%E5%9B%BD%E5%BC%80%E5%90%AFgithub2fa%E9%AA%8C%E8%AF%81/</link>
+      <pubDate>Fri, 30 Aug 2024 20:22:59 +0800</pubDate>
+      
+      <guid>http://localhost:1313/feishiko-blog-page/posts/%E5%9C%A8%E4%B8%AD%E5%9B%BD%E5%BC%80%E5%90%AFgithub2fa%E9%AA%8C%E8%AF%81/</guid>
+      <description>最近Github需要开启2FA双端验证，但由于在中国没法发送SMS短信验证，同时Github上推荐了三个身份验证软件。</description>
+      
+    </item>
+    
     <item>
       <title>游戏开发：游戏逻辑处理时钟</title>
       <link>http://localhost:1313/feishiko-blog-page/posts/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91%E6%B8%B8%E6%88%8F%E9%80%BB%E8%BE%91%E5%A4%84%E7%90%86%E6%97%B6%E9%92%9F/</link>

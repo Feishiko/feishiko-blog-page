@@ -4,13 +4,19 @@
 
   <url>
     <loc>http://localhost:1313/feishiko-blog-page/</loc>
-    <lastmod>2024-08-21T14:36:15+08:00</lastmod>
+    <lastmod>2024-08-30T20:22:59+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/feishiko-blog-page/posts/</loc>
-    <lastmod>2024-08-21T14:36:15+08:00</lastmod>
+    <lastmod>2024-08-30T20:22:59+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/feishiko-blog-page/posts/%E5%9C%A8%E4%B8%AD%E5%9B%BD%E5%BC%80%E5%90%AFgithub2fa%E9%AA%8C%E8%AF%81/</loc>
+    <lastmod>2024-08-30T20:22:59+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
