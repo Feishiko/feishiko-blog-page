@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Feishiko</copyright>
-    <lastBuildDate>Fri, 30 Aug 2024 20:22:59 +0800</lastBuildDate><atom:link href="http://localhost:1313/feishiko-blog-page/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Sep 2024 14:33:35 +0800</lastBuildDate><atom:link href="http://localhost:1313/feishiko-blog-page/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>在Windows上使用wm</title>
+      <link>http://localhost:1313/feishiko-blog-page/posts/%E5%9C%A8windows%E4%B8%8A%E4%BD%BF%E7%94%A8wm/</link>
+      <pubDate>Sun, 01 Sep 2024 14:33:35 +0800</pubDate>
+      
+      <guid>http://localhost:1313/feishiko-blog-page/posts/%E5%9C%A8windows%E4%B8%8A%E4%BD%BF%E7%94%A8wm/</guid>
+      <description>最近在给scoop上的软件换到cn源上，无意之中发现曾经装过komorebi（windows上的wm）</description>
+      
+    </item>
+    
     <item>
       <title>在中国开启Github 2FA验证</title>
       <link>http://localhost:1313/feishiko-blog-page/posts/%E5%9C%A8%E4%B8%AD%E5%9B%BD%E5%BC%80%E5%90%AFgithub2fa%E9%AA%8C%E8%AF%81/</link>
