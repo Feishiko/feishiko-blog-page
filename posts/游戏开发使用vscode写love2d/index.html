@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="scroll-smooth" data-default-appearance="dark"
-  data-auto-appearance="true"><head>
-	<meta name="generator" content="Hugo 0.133.1"><script src="/feishiko-blog-page/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=feishiko-blog-page/livereload" data-no-instant defer></script>
+  data-auto-appearance="true"><head><script src="/feishiko-blog-page/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=feishiko-blog-page/livereload" data-no-instant defer></script>
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
   <meta charset="utf-8" />
   
@@ -10,18 +9,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>Feishiko&#39;s Blog Site</title>
-  <meta name="title" content="Feishiko&#39;s Blog Site" />
+  <title>游戏开发：使用vscode写love2d &middot; Feishiko&#39;s Blog Site</title>
+  <meta name="title" content="游戏开发：使用vscode写love2d &middot; Feishiko&#39;s Blog Site" />
   
   
   
   
   
-  <link rel="canonical" href="http://localhost:1313/feishiko-blog-page/" />
-  
-  <link rel="alternate" type="application/rss+xml" href="/feishiko-blog-page/index.xml" title="Feishiko's Blog Site" />
-  
-  <link rel="alternate" type="application/json" href="/feishiko-blog-page/index.json" title="Feishiko's Blog Site" />
+  <link rel="canonical" href="http://localhost:1313/feishiko-blog-page/posts/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91%E4%BD%BF%E7%94%A8vscode%E5%86%99love2d/" />
   
   
   
@@ -66,32 +61,48 @@
   
   
   
-  <meta property="og:url" content="http://localhost:1313/feishiko-blog-page/">
+  <meta property="og:url" content="http://localhost:1313/feishiko-blog-page/posts/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91%E4%BD%BF%E7%94%A8vscode%E5%86%99love2d/">
   <meta property="og:site_name" content="Feishiko&#39;s Blog Site">
-  <meta property="og:title" content="Feishiko&#39;s Blog Site">
+  <meta property="og:title" content="游戏开发：使用vscode写love2d">
+  <meta property="og:description" content="其实我已经用vscode写了好几个love2d游戏了，我自己的库也在不断完善。">
   <meta property="og:locale" content="en">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-10-18T17:34:43+08:00">
+    <meta property="article:modified_time" content="2024-10-18T17:34:43+08:00">
 
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Feishiko&#39;s Blog Site">
+  <meta name="twitter:title" content="游戏开发：使用vscode写love2d">
+  <meta name="twitter:description" content="其实我已经用vscode写了好几个love2d游戏了，我自己的库也在不断完善。">
 
   
   <script type="application/ld+json">
-  {
+  [{
     "@context": "https://schema.org",
-    "@type": "WebSite",
-    "@id": "http:\/\/localhost:1313\/feishiko-blog-page\/",
-    "name": "Feishiko\u0027s Blog Site",
+    "@type": "Article",
+    "articleSection": "Posts",
+    "name": "游戏开发：使用vscode写love2d",
+    "headline": "游戏开发：使用vscode写love2d",
     
+    "abstract": "其实我已经用vscode写了好几个love2d游戏了，我自己的库也在不断完善。",
     "inLanguage": "en",
-    "url": "http:\/\/localhost:1313\/feishiko-blog-page\/",
-    
-    "publisher" : {
+    "url" : "http:\/\/localhost:1313\/feishiko-blog-page\/posts\/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91%E4%BD%BF%E7%94%A8vscode%E5%86%99love2d\/",
+    "author" : {
       "@type": "Person",
       "name": "Feishiko"
-    }
-  }
+    },
+    "copyrightYear": "2024",
+    "dateCreated": "2024-10-18T17:34:43\u002b08:00",
+    "datePublished": "2024-10-18T17:34:43\u002b08:00",
+    
+    "dateModified": "2024-10-18T17:34:43\u002b08:00",
+    
+    
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "30"
+  }]
   </script>
 
 
@@ -403,110 +414,25 @@
   <div class="relative flex flex-col grow">
     <main id="main-content" class="grow">
       
+
+
+<article>
   
-  
+
+  <header id="single_header" class="mt-5 max-w-prose">
     
-<article class="max-w-full prose dark:prose-invert">
-    <div class="relative">
-        <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100"></div>
-        <div class="mx-auto max-w-7xl p-0">
-            <div class="relative shadow-xl sm:overflow-hidden rounded-2xl">
-                <div class="absolute inset-0">
-                    
-                    
-                    
-                        
-                            
-                        
-                    
-                    
-                    <img class="h-full w-full object-cover m-0 nozoom" src="/feishiko-blog-page/../assets/img/back.jpg">
-                    <div
-                        class="absolute inset-0 bg-gradient-to-r from-primary-500 to-secondary-600 dark:from-primary-600 dark:to-secondary-800 mix-blend-multiply">
-                    </div>
-                    
-                </div>
-                <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8 flex flex-col items-center justify-center text-center">
-                    
-                        
-                        
-                            
-                        
-                        
-                            
-                                
-                            
-                            <img class="mb-2 rounded-full h-36 w-36" width="144" height="144"
-                                alt="Feishiko" src="/feishiko-blog-page/../assets/img/icon_hu8009680875426029410.png" />
-                        
-                    
-                    <h1 class="mb-2 text-4xl font-extrabold text-neutral-200">
-                        Feishiko
-                    </h1>
-                    
-                    <h2 class="mt-0 mb-0 text-xl text-neutral-300">
-                        I make games
-                    </h2>
-                    
-                    <div class="mt-3 mb-10 text-2xl">
-                        
-                        <div class="flex flex-wrap">
-                            
-                            
-                            <a class="px-1 hover:text-primary-400 text-primary-300" href="https://feishiko.github.io/" target="_blank"
-                                aria-label="Link" rel="me noopener noreferrer">
-
-  <span class="relative block icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
-
-  </span>
-
-</a>
-                            
-                            
-                        </div>
-                        
-                    </div>
-                    <section class="prose prose-invert"></section>
-                </div>
-            </div>
-        </div>
-    </div>
-</article>
-<section>
-    
+    <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+      游戏开发：使用vscode写love2d
+    </h1>
+    <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+      
 
 
 
-
-
-<h2 class="mt-8 text-2xl font-extrabold mb-10">Recent</h2>
 
 
   
-
-
-<section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
   
-  
-
-  <a href="/feishiko-blog-page/posts/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91%E4%BD%BF%E7%94%A8vscode%E5%86%99love2d/" class="min-w-full">
-    
-    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
-
-      <div class="px-6 py-4">
-
-        
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/feishiko-blog-page/posts/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91%E4%BD%BF%E7%94%A8vscode%E5%86%99love2d/">游戏开发：使用vscode写love2d</div>
-        
-
-        <div class="text-sm text-neutral-500 dark:text-neutral-400">
-          
-
-
-
-
 
 
 
@@ -550,320 +476,219 @@
 
 
 
-        </div>
-
-        
-      </div>
-      <div class="px-6 pt-4 pb-2">
-
-      </div>
     </div>
-  </a>
 
-  
-  
-
-  <a href="/feishiko-blog-page/posts/%E7%94%B5%E8%84%91%E7%BB%B4%E4%BF%AEdellg15%E4%B8%A4%E9%BB%84%E4%B8%80%E7%99%BD%E7%94%B5%E8%84%91%E9%BB%91%E5%B1%8F%E9%9D%99%E7%94%B5%E9%97%AE%E9%A2%98/" class="min-w-full">
     
-    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
-
-      <div class="px-6 py-4">
-
-        
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/feishiko-blog-page/posts/%E7%94%B5%E8%84%91%E7%BB%B4%E4%BF%AEdellg15%E4%B8%A4%E9%BB%84%E4%B8%80%E7%99%BD%E7%94%B5%E8%84%91%E9%BB%91%E5%B1%8F%E9%9D%99%E7%94%B5%E9%97%AE%E9%A2%98/">电脑维修：Dell G15 两黄一白电脑黑屏静电问题</div>
-        
-
-        <div class="text-sm text-neutral-500 dark:text-neutral-400">
-          
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  <time datetime="2024-09-09 17:33:23 &#43;0800 CST">9 September 2024</time>
-  
-
-  
-  
-</div>
-
-
-
-
-
-
-
-        </div>
-
-        
-      </div>
-      <div class="px-6 pt-4 pb-2">
-
-      </div>
-    </div>
-  </a>
-
-  
-  
-
-  <a href="/feishiko-blog-page/posts/%E5%9C%A8windows%E4%B8%8A%E4%BD%BF%E7%94%A8wm/" class="min-w-full">
     
-    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
-
-      <div class="px-6 py-4">
-
-        
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/feishiko-blog-page/posts/%E5%9C%A8windows%E4%B8%8A%E4%BD%BF%E7%94%A8wm/">在Windows上使用wm</div>
-        
-
-        <div class="text-sm text-neutral-500 dark:text-neutral-400">
-          
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  <time datetime="2024-09-01 14:33:35 &#43;0800 CST">1 September 2024</time>
-  
-
-  
-  
-</div>
-
-
-
-
-
-
-
-        </div>
-
-        
-      </div>
-      <div class="px-6 pt-4 pb-2">
-
-      </div>
-    </div>
-  </a>
-
-  
-  
-
-  <a href="/feishiko-blog-page/posts/%E5%9C%A8%E4%B8%AD%E5%9B%BD%E5%BC%80%E5%90%AFgithub2fa%E9%AA%8C%E8%AF%81/" class="min-w-full">
     
-    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
-
-      <div class="px-6 py-4">
-
-        
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/feishiko-blog-page/posts/%E5%9C%A8%E4%B8%AD%E5%9B%BD%E5%BC%80%E5%90%AFgithub2fa%E9%AA%8C%E8%AF%81/">在中国开启Github 2FA验证</div>
-        
-
-        <div class="text-sm text-neutral-500 dark:text-neutral-400">
-          
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  <time datetime="2024-08-30 20:22:59 &#43;0800 CST">30 August 2024</time>
-  
-
-  
-  
-</div>
-
-
-
-
-
-
-
-        </div>
-
-        
-      </div>
-      <div class="px-6 pt-4 pb-2">
-
-      </div>
-    </div>
-  </a>
-
-  
-  
-
-  <a href="/feishiko-blog-page/posts/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91%E6%B8%B8%E6%88%8F%E9%80%BB%E8%BE%91%E5%A4%84%E7%90%86%E6%97%B6%E9%92%9F/" class="min-w-full">
     
-    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
+    
 
-      <div class="px-6 py-4">
+    
 
+    
+      
+      
         
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/feishiko-blog-page/posts/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91%E6%B8%B8%E6%88%8F%E9%80%BB%E8%BE%91%E5%A4%84%E7%90%86%E6%97%B6%E9%92%9F/">游戏开发：游戏逻辑处理时钟</div>
         
-
-        <div class="text-sm text-neutral-500 dark:text-neutral-400">
-          
-
-
-
-
-
-
-
-
-
-
-
+<div class="flex author">
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  <time datetime="2024-08-21 14:36:15 &#43;0800 CST">21 August 2024</time>
-  
-
-  
-  
-</div>
-
-
-
-
-
-
-
-        </div>
-
+    
+    
+      
+    
+    
+      
         
-      </div>
-      <div class="px-6 pt-4 pb-2">
-
-      </div>
+      
+      <img class="!mt-0 !mb-0 h-24 w-24 rounded-full ltr:mr-4 rtl:ml-4" width="96" height="96"
+      alt="Feishiko" src="/feishiko-blog-page/../assets/img/icon_hu6082377546487248925.png" />
+    
+  
+  <div class="place-self-center">
+    
+    <div class="text-[0.6rem] uppercase leading-3 text-neutral-500 dark:text-neutral-400">
+      Author
     </div>
-  </a>
+    <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
+      Feishiko
+    </div>
+    
+    
+    <div class="text-sm text-neutral-700 dark:text-neutral-400">Programming Avali</div>
+    
+    <div class="text-2xl sm:text-lg">
+  <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
+    
+      
+        <a
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          href="https://feishiko.github.io/"
+          target="_blank"
+          aria-label="Link"
+          rel="me noopener noreferrer"
+          ><span class="inline-block align-text-bottom">
 
-  
-</section>
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
 
+  </span>
 
+</span></a
+        >
+      
+    
+  </div>
 
-
-
-</section>
-
-  
+</div>
+  </div>
+</div>
 
       
+
+      
+
+      
+      <div class="mb-5"></div>
+      
+
+    
+
+  </header>
+  
+  <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+    
+    
+
+      <div class="min-w-0 min-h-0 max-w-fit">
+        
+        
+
+
+        <div class="article-content max-w-prose mb-20">
+          <p>其实我已经用vscode写了好几个love2d游戏了，我自己的库也在不断完善。</p>
+<p>但每次要写love2d的时候就会有很多代码以外的事情打扰我，比如说国内经典的网络问题，还有关于配置lsp上面。</p>
+<p>所以我想尽可能出一期博客把之前踩过的坑记录一下。</p>
+<p>首先为了在vscode里面写love2d，我们需要love2d库的lsp，这个你或许可以通过直接导入love2d的包的代码来做到直接在lua的基础上引用，能不能行得通我不知道至少这是一种合理的假设。</p>
+<p>那么我自己是用sumneko的lua vscode插件。然后使用lua addon manager添加了一个love2d的lsp支持。开启很简单，<code>ctrl + shift + p</code>后输入<code>&gt; lua addon manager</code>就能打开addon manager的GUI界面，找到love2d一栏，enable之后他就会自动从github远程仓库帮你拉取love2d相关的代码保证能够提示。另外会自动生成一个setting.json（你项目文件夹的）写上一些配置文件。</p>
+<p>那么在国内应该会很频繁的会遇到连不上github的情况，关于vscode配置代理我也一直是一头雾水，你或许可以通过设置里面搜索proxy相关把你所用代理的ip + 端口写上去。但我之前这样做似乎没啥效果。如果不行可以通过修改settings.json（appdata里面的）配置文件，自己写上<code>&quot;http.proxy&quot; : &quot;http://127.0.0.1:7890&quot;</code>之类东西。其实是一个配置方法。</p>
+<p>如果修改settings.json没有用，可以通过更改启动方式。之前看到过这篇文章，在这里引用：https://suiahae.me/Set-proxy-for-Visual-Studio-Code-on-Windows/#:~:text=%E4%B8%BAVisual%20St</p>
+<p>如果log信息里面还是timeout那只能自己在想办法了，可以先排查一下是不是没代理上。</p>
+<hr>
+<p>如果一切正常那大概是正常了，如果不太正常，比如没法取消enable啥的，那么把setting.json（项目文件夹的）里面的lua.workspace.checkThirdParty true了之后就大部分正常了。切记不要删除love2d addon文件夹里面的info.json，这会导致sumneko lua插件无法从github上拉取内容。</p>
+<p>另外，如果你使用scoop下载了lua，这会导致scoop的lua环境会覆盖掉其他lua程序的环境，比如说你下的用love2d做的游戏，特别是用luasteam这个库的。之前因为想玩Balatro但是因为它老是找到scoop的lua让我很为难，因为scoop的环境下没有luasteam。包括如果你以后要上steam，使用luasteam的时候也会因为这个问题无法运行你的程序。所以不需要配置lua在系统里面也能写lua程序。</p>
+<p>linux也是同理，如果你用包管理器安装了lua，这也会导致无法正常运行使用luasteam的游戏。</p>
+<p>另外，推荐在sumneko的配置里面把lua环境改成luajit，因为love2d使用luajit（不知道原理是什么但是更快一些），新版本的lua支持位运算，正因如此可能会和一些库冲突（比如ldtk的导入库使用了位运算），也有能使用位运算的jit库。如果使用了5.4的语法，这会导致love的web端导出，love.js会出现问题。</p>
+
+        </div>
+        
+        
+
+        
+        
+
+          
+      </div>
+     
+      
+      
+        
+        
+          
+          
+        
+      <script>
+        var oid = "views_posts\\游戏开发：使用vscode写love2d.md"
+        var oid_likes = "likes_posts\\游戏开发：使用vscode写love2d.md"
+      </script>
+      
+      
+      
+      <script type="text/javascript" src="/feishiko-blog-page/js/page.min.0860cf4e04fa2d72cc33ddba263083464d48f67de06114529043cb4623319efed4f484fd7f1730df5abea0e2da6f3538855634081d02f2d6e920b956f063e823.js" integrity="sha512-CGDPTgT6LXLMM926JjCDRk1I9n3gYRRSkEPLRiMxnv7U9IT9fxcw31q&#43;oOLabzU4hVY0CB0C8tbpILlW8GPoIw=="></script>
+  
+    </section>
+  <footer class="pt-8 max-w-prose print:hidden">
+
+    
+  
+    
+    
+    
+    <div class="pt-8">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+      <div class="flex justify-between pt-3">
+        <span>
+          
+            <a class="flex group mr-3" href="/feishiko-blog-page/posts/%E7%94%B5%E8%84%91%E7%BB%B4%E4%BF%AEdellg15%E4%B8%A4%E9%BB%84%E4%B8%80%E7%99%BD%E7%94%B5%E8%84%91%E9%BB%91%E5%B1%8F%E9%9D%99%E7%94%B5%E9%97%AE%E9%A2%98/">
+              <span
+                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
+                >&larr;</span
+              >
+              <span
+                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
+                >&rarr;</span
+              >
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >电脑维修：Dell G15 两黄一白电脑黑屏静电问题</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2024-09-09 17:33:23 &#43;0800 CST">9 September 2024</time>
+                  
+                </span>
+              </span>
+            </a>
+          
+        </span>
+        <span>
+          
+        </span>
+      </div>
+    </div>
+  
+
+
+    
+    
+    <div class="pt-3">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+      <div class="pt-3">
+        <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "feishikos-blog-site" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </div>
+    </div>
+    
+    
+  </footer>
+</article>
+
+      <div id="top-scroller" class="pointer-events-none absolute top-[110vh] bottom-0 w-12 ltr:right-0 rtl:left-0">
+  <a href="#the-top"
+    class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 mb-16 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+    aria-label="Scroll to top" title="Scroll to top">
+    &uarr;
+  </a>
+</div>
     </main><footer id="site-footer" class="py-10 print:hidden">
   
   

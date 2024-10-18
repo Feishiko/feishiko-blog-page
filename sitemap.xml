@@ -4,13 +4,19 @@
 
   <url>
     <loc>http://localhost:1313/feishiko-blog-page/</loc>
-    <lastmod>2024-09-09T17:33:23+08:00</lastmod>
+    <lastmod>2024-10-18T17:34:43+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/feishiko-blog-page/posts/</loc>
-    <lastmod>2024-09-09T17:33:23+08:00</lastmod>
+    <lastmod>2024-10-18T17:34:43+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/feishiko-blog-page/posts/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91%E4%BD%BF%E7%94%A8vscode%E5%86%99love2d/</loc>
+    <lastmod>2024-10-18T17:34:43+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
