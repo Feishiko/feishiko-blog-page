@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Proses on Feishiko&#39;s Blog Site</title>
-    <link>https://feishiko.github.io/feishiko-blog-page/proses/</link>
+    <link>http://localhost:1313/feishiko-blog-page/proses/</link>
     <description>Recent content in Proses on Feishiko&#39;s Blog Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Feishiko</copyright>
-    <lastBuildDate>Wed, 21 Dec 2022 00:08:22 +0800</lastBuildDate><atom:link href="https://feishiko.github.io/feishiko-blog-page/proses/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Dec 2022 00:08:22 +0800</lastBuildDate><atom:link href="http://localhost:1313/feishiko-blog-page/proses/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dark观后感</title>
-      <link>https://feishiko.github.io/feishiko-blog-page/proses/dark%E8%A7%82%E5%90%8E%E6%84%9F/</link>
+      <link>http://localhost:1313/feishiko-blog-page/proses/dark%E8%A7%82%E5%90%8E%E6%84%9F/</link>
       <pubDate>Wed, 21 Dec 2022 00:08:22 +0800</pubDate>
       
-      <guid>https://feishiko.github.io/feishiko-blog-page/proses/dark%E8%A7%82%E5%90%8E%E6%84%9F/</guid>
+      <guid>http://localhost:1313/feishiko-blog-page/proses/dark%E8%A7%82%E5%90%8E%E6%84%9F/</guid>
       <description>开始就是结束，结束便是开始。</description>
       
     </item>
